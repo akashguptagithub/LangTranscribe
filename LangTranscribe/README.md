@@ -33,9 +33,9 @@ Tokenizer can learn the tokenization from data (using any one of the techniques 
 
 The tokenizer will learn a mapping of tokens to ids and vice versa and use these to map strings. This mapping can be built based on merge rules (BPE, WordPiece, etc.) or hand-crafted rules, in the Tokenizer.train() function. Additionally the tokenizer will also handle preprocessing and postprocessing of strings during the encoding phase (string to tokens).
 
-<img width="794" alt="Screenshot 2024-06-28 at 11 41 52 PM" src="https://github.com/pritamgouda11/Translation-Using-Sequence-to-Sequence-Modelling/assets/46958858/59242a0e-7a6a-4bab-84d8-e047962013f1">
+<img width="794" alt="Screenshot 2024-06-28 at 11 41 52 PM" src="https://github.com/akashkumar11/Translation-Using-Sequence-to-Sequence-Modelling/assets/46958858/59242a0e-7a6a-4bab-84d8-e047962013f1">
 
-<img width="650" alt="Screenshot 2024-06-28 at 11 42 10 PM" src="https://github.com/pritamgouda11/Translation-Using-Sequence-to-Sequence-Modelling/assets/46958858/6e42e969-293f-4028-beaf-2a1d8d97a4dc">
+<img width="650" alt="Screenshot 2024-06-28 at 11 42 10 PM" src="https://github.com/akashkumar11/Translation-Using-Sequence-to-Sequence-Modelling/assets/46958858/6e42e969-293f-4028-beaf-2a1d8d97a4dc">
 
 # Model-Agnostic Training
 
@@ -43,7 +43,7 @@ Next, we implement a Trainer to train different models, since the data and token
 
 # Seq-2-Seq Modeling with RNNs
 
-![image](https://github.com/pritamgouda11/Translation-Using-Sequence-to-Sequence-Modelling/assets/46958858/54d89610-ded5-4032-a7c9-34f60a4882c9)
+![image](https://github.com/akashkumar11/Translation-Using-Sequence-to-Sequence-Modelling/assets/46958858/54d89610-ded5-4032-a7c9-34f60a4882c9)
 
 An encoder-decoder network using RNNs is implemented, to learn a conditional language model for the task of translating the names to Hindi. We can use any type of RNN for this purpose: RNN, GRU, LSTM, etc. Consult the pytorch documentation for additional information.
 
